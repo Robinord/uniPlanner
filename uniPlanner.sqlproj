@@ -61,5 +61,6 @@
     <Build Include="universityInfo.sql" />
     <Build Include="Table1.sql" />
     <Build Include="Programmes.sql" />
+    <Build Include="uniProgrammes.sql" />
   </ItemGroup>
 </Project>
