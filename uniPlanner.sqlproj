@@ -65,5 +65,6 @@
     <Build Include="majors.sql" />
     <Build Include="majors_1.sql" />
     <Build Include="majorsOffered.sql" />
+    <Build Include="rankScores.sql" />
   </ItemGroup>
 </Project>
