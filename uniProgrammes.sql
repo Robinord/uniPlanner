@@ -1,6 +1,6 @@
 ﻿CREATE TABLE uni.uniProgrmammes (
 	[uniProgrammeID] INT IDENTITY (1,1) PRIMARY KEY,
-	[programmeID] INT NOT NULL,
-	[universityID] INT NOT NULL,
+	[programmeID] INT NOT NULL REFERENCES uni.programmes(programmeID),
+	[universityID] INT NOT NULL REFERENCES uni.universityInfo(universityID),
 	[link] VARCHAR (255) NOT NULL
 	)

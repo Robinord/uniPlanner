@@ -62,5 +62,7 @@
     <Build Include="Table1.sql" />
     <Build Include="Programmes.sql" />
     <Build Include="uniProgrammes.sql" />
+    <Build Include="majors.sql" />
+    <Build Include="majors_1.sql" />
   </ItemGroup>
 </Project>
