@@ -67,5 +67,9 @@
     <Build Include="majorsOffered.sql" />
     <Build Include="rankScores.sql" />
     <Build Include="approvedAS.sql" />
+    <Build Include="programmeReq.sql" />
+    <Build Include="majorReq.sql" />
+    <Build Include="students.sql" />
+    <Build Include="grades.sql" />
   </ItemGroup>
 </Project>
