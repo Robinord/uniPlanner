@@ -3,8 +3,8 @@ GO
 
 CREATE TABLE [secondary].[approvedAS](
 	[AS] INT PRIMARY KEY,
-	[subject] VARCHAR (255) NOT NULL,
+	[subject] NVARCHAR (255) NOT NULL,
 	[credits] INT NOT NULL,
 	[assessment] VARCHAR(255) NOT NULL CHECK(assessment='Internal' OR assessment='External'),
-	[description] VARCHAR(255) NOT NULL
+	[description] NVARCHAR(255) NOT NULL
 	)
